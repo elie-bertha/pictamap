@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+    <head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Travel With Me</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+                
+                
+                
+                
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/main.css">        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Linea Basic -->
+        <link rel="stylesheet" href="css/lineabasic.css">        
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.min.css">
+        <!-- Slick carousel -->
+        <link rel="stylesheet" href="css/slick.css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        
+        <script src="js/vendor/modernizr.js"></script>
+
+    </head>
+    <body data-spy="scroll" data-offset="50" data-target=".navbar-default">
+
+        <!-- Preloader -->
+        <div class="preloader">
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top is-transparent">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Travel With Me</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#mymaps">My Maps</a></li>
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header id="home" class="header hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="banner">
+                            <h4>Because we beleive each experience is worth to be shared</h4>
+                            <h1>Welcome on board</h1>
+                            <p>Upload, organise and share your best memories with your loved ones</p>
+                            <a href="#about" class="btn btn-warning btn_home" role="button">Learn More</a>
+                        </div>
+                    </div>
+                    <span class="scroll-down icon icon-basic-magic-mouse"></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- About -->
+        <div id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <header class="div-header">
+                            <h3 class="div-title" data-text="About Us">Our experiences are to be shared</h3>
+                            <p>Because we beleive that every single travel experience is unique, our aim is to offer you a new way of sharing them.</p>
+                        </header>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mockup" data-animation="fadeInUp" data-animation-delay="02">
+                            <img src="img/travel-about.jpg" alt="mockup" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <i class="icon icon-basic-lightbulb"></i>
+                            <h4 class="small-title centered">Idea</h4>
+                            <p>Each experience deserves to be shared with our loved ones</p>
+                        </div>
+                    </div>
+                     <div class="col-md-4">
+                        <div class="feature">
+                            <i class="icon icon-basic-photo"></i>
+                            <h4 class="small-title centered">Pictures</h4>
+                            <p>Upload and share your best travel picutres</p>
+                        </div>
+                    </div>               
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <i class="icon icon-basic-map"></i>
+                            <h4 class="small-title centered">Maps</h4>
+                            <p>Create your map and keep track of your best experiences</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog -->
+        <div id="features" class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <header class="div-header">
+                            <h4 class="div-title" data-text="Blog">My Map</h4>
+                            <p>Over the past three years we have been traveling around Asia, we took this occasion to make you discover some of our best memories</p>
+                        </header>
+                    </div>
+                </div>
+                <!-- Gmap -->
+                <div class="map">
+                    <a class="show-map"><div class="helper"><i class="icon icon-basic-geolocalize-01"></i><span>Show Map</span></div></a>
+                    <div id="my-map"></div>
+                </div>
+                <!-- Pictures -->
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="post preview gridview">
+                            <div class="post-media">
+                                <ul class="slider">
+                                    <li><a href="#"><img src="img/thumbs/siem_reap1.jpg" alt="..."></a></li>
+                                    <li><a href="#"><img src="img/thumbs/siem_reap2.jpg" alt="..."></a></li>
+                                    <li><a href="#"><img src="img/thumbs/siem_reap3.jpg" alt="..."></a></li>
+                                    <li><a href="#"><img src="img/thumbs/siem_reap4.jpg" alt="..."></a></li>
+                                    <li><a href="#"><img src="img/thumbs/siem_reap5.jpg" alt="..."></a></li>
+                                </ul>
+                            </div>
+                            <div class="caption">
+                                <ul class="meta-list">
+                                    <li><span class="meta">October, 2016</span></li>
+                                    <li><span class="meta">Cambodia</span></li>
+                                </ul>
+                                <h5 class="post-title"><a href="post-sample.html">Siem Reap</a></h5>
+                                <p>Phasellus a nisl libero. Pellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem lacus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="post preview gridview">
+                            <div class="post-media">
+                                <ul class="slider">
+                                    <li><a href="#"><img src="img/thumbs/placeholder3.jpg" alt="..."></a></li>
+                                    <li><a href="#"><img src="img/thumbs/placeholder2.jpg" alt="..."></a></li>
+                                    <li><a href="#"><img src="img/thumbs/placeholder3.jpg" alt="..."></a></li>
+                                </ul>
+                            </div>
+                            <div class="caption">
+                                <ul class="meta-list">
+                                    <li><span class="meta">February 26, 2016</span></li>
+                                    <li><span class="meta">Photography</span></li>
+                                </ul>
+                                <h5 class="post-title"><a href="post-sample.html">Mountains adventure</a></h5>
+                                <p>Phasellus a nisl libero. Pellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem lacus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="post preview gridview">
+                            <div class="post-media">
+                                <ul class="slider">
+                                    <li><a href="#"><img src="img/thumbs/placeholder3.jpg" alt="..."></a></li>
+                                    <li><a href="#"><img src="img/thumbs/placeholder2.jpg" alt="..."></a></li>
+                                    <li><a href="#"><img src="img/thumbs/placeholder3.jpg" alt="..."></a></li>
+                                </ul>
+                            </div>
+                            <div class="caption">
+                                <ul class="meta-list">
+                                    <li><span class="meta">February 26, 2016</span></li>
+                                    <li><span class="meta">Photography</span></li>
+                                </ul>
+                                <h5 class="post-title"><a href="post-sample.html">Mountains adventure</a></h5>
+                                <p>Phasellus a nisl libero. Pellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem lacus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <header class="div-header">
+                            <h4 class="div-title" data-text="Contact">Get in touch</h4>
+                            <p>Have any question, feedback or recomendation for us ? Please feel free to contact us, leave further details if you would like to get in touch directly by Skype, phone or anything else at your convenience.</p>
+                        </header>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="form-detached">
+                            <form action="php/contact-form.php" id="contact-form">
+                                <div class="alert alert-success hidden" id="contact-alert-success">
+                                    <strong>Success!</strong> Thank you for your message. Reply will be in a while!
+                                </div>
+                                <div class="alert alert-danger hidden" id="contact-alert-error">
+                                    <strong>Error!</strong> Something went wrong sending your message.
+                                </div>
+                                <div class="col-md-6">
+                                	<div class="form-group">
+                                    <label class="sr-only" for="name"></label>
+                                    <input type="text" class="form-control" value="" placeholder="Name" data-msg-required="Please enter your name." name="name" id="name">
+                                </div>
+                                </div>
+                                <div class="col-md-6">
+                                	<div class="form-group">
+                                    <label class="sr-only" for="email"></label>
+                                    <input type="email" value="" placeholder="E-mail" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." class="form-control" name="email" id="email">
+                                </div>
+                                </div>
+                                <div class="col-md-12">
+                                	<div class="form-group">
+                                    <label class="sr-only" for="message"></label>
+                                    <textarea placeholder="Enter your message..." data-msg-required="Please enter your message." rows="6" class="form-control" name="message" id="message"></textarea>
+                                </div>
+                                 <input type="submit" value="Send Message" class="btn btn-default alignleft" data-loading-text="Loading...">
+                                </div>
+                               
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <address class="address">
+                            <i class="icon icon-basic-mail"></i>
+                            <a href="mailto:#">travel-with-me@gmail.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container clearfix">
+    <div class="col-lg-12"> <div class="alignleft small">&copy; 2017, TravelWithMe. All Rights Reserved.</div> <div class="alignright small">Connect with us:&nbsp;&nbsp;&nbsp;
+      <ul class="social-list alignright clearfix">
+        <li> <a href="#"><i class="fa fa-google-plus"></i></a> </li>
+        <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+        <li> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
+        <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
+      </ul>
+      </div> </div>
+  </div>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/vendor/fastclick.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/vendor/jquery.appear.js"></script>                  <!-- jQuery Appear -->
+        <script src="js/vendor/jquery.easing.1.3.js"></script>              <!-- jQuery Easing -->
+        <script src="js/vendor/imagesloaded.pkgd.min.js"></script>          <!-- Imagesloaded -->
+        <script src="js/vendor/isotope.pkgd.min.js"></script>               <!-- Isotope -->
+        <script src="js/vendor/slick.min.js"></script>                      <!-- Slick carousel -->
+        <script src="js/vendor/jquery.tweet.min.js"></script>               <!-- Tweet.js-Mod -->
+        <script src="js/vendor/jquery.countTo.js"></script>                 <!-- Count To -->
+        <script src="js/vendor/jquery.easypiechart.min.js"></script>        <!-- easyPieChart -->
+        <script src="js/vendor/jquery.magnific-popup.min.js"></script>      <!-- Magnific Popup -->
+
+        <script src="js/main.js"></script>
+
+        <script src="js/vendor/jquery.validate.min.js"></script>            <!-- jQuery Validate -->
+        <script src="js/contact.js"></script>
+
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script><!-- GMap -->
+        <script src="js/vendor/gmap3.min.js"></script>
+        <script src="js/mymap.js"></script>
+
+
+    </body>
+</html>
